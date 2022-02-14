@@ -20,7 +20,7 @@ params = struct();
 
 % domain length and time scales
 params.Lreal = 1055; % length of domain in real units (um). Sets length scale
-params.vpreal = 0.75; % AV velocity in real units (um/s). Sets time scale
+params.vpreal = 0.75; % AV velocity in real units (um/s). Sets time scale along with Lreal
 params.L = 1; % scaled domain length
 params.vp = 1; % scaled AV velocity
 
